@@ -1,0 +1,360 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    color: aliceblue;
+    /* background-color: black; */
+}
+html ,body{
+    height: 100%;
+    width: 100%;
+}
+#blr{
+    height: 500px;
+    width: 500px;
+    background: linear-gradient(to right,rgb(170, 64, 170),rgb(113, 66, 159),royalblue);
+    border-radius: 50%;
+    left: 35%;
+    position: absolute;
+    filter: blur(40px);
+    top: -50%;  
+}
+#page1{
+    height: 100%;
+    width: 100%;
+    background-color:black;
+    /* padding: 40px 30px; */
+    padding: 30px 30px;
+}
+#photu{ 
+    /* position: relative; */
+    /* margin-top: 60px; */
+    /* margin:0 20px; */
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    padding: 5px;
+    background: linear-gradient(to bottom,purple,pink,royalblue);
+}
+#img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid black;   
+}
+#un{
+    font-size: 120px;
+    /* position: absolute; */
+    text-align: center;
+    /* margin-top: 10%; */
+    background: linear-gradient(to top,purple,royalblue);
+    /* background-image: url(https://tse3.mm.bing.net/th?id=OIP.4t_YudYUP3L4lzt0o9yeYgHaHa&pid=Api&P=0&h=220); */
+    -webkit-background-clip: text;
+    color: transparent;
+    text-transform: capitalize;
+}
+h2{
+    font-size: 120px;
+    text-align: center;
+    text-transform: capitalize;
+}
+#name{
+    left: 9.5%;
+    top: 50px;
+    font-size: 20px;
+    position: absolute;
+    font-family: sans-serif;
+    font-weight: 50px;
+}
+#name p{
+    opacity: 50%;
+}
+#nav{
+    position: absolute;
+    right: 50px;
+    top: 65px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#page1 button{
+    padding: 20px 30px;
+    /* font-weight: 50px; */
+    border-radius: 10px;
+    font-size: 25px;
+    background: linear-gradient(to top,royalblue,purple);
+    align-items: center;
+    top: 85%;
+    left: 40%;
+
+    position: absolute;
+    box-shadow: 10px 10px 20px rgb(116, 76, 116);
+    /* text-align: center; */
+}
+#par1{
+    font-size: 25px;
+    left: 30%;
+    top: 60%;
+    position: absolute;
+    opacity: 50%;
+}
+#par2{
+    font-weight: 200;
+    font-size: 27px;
+    left: 31.3%;
+    top: 65%;
+    position: absolute;
+
+}
+ i{
+   background: linear-gradient(purple,pink);
+   border-radius: 50%;
+}
+#flat{
+    left: 22%;
+    top: 75%;
+    position: absolute;
+    display: flex;
+    gap: 20px;
+    font-size: 22px;
+    font-weight: 150px;
+}
+#fuss{
+    left: 40%;
+    top: 75%;
+    position: absolute;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: 150px;
+}
+#cancle{
+    left: 65%;
+    top: 75%;
+    position: absolute;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: 150px;
+}
+ 
+#page2 {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    /* padding: 20px; */
+    position: relative;
+}
+#page3 {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    /* position: relative; */
+    /* padding: 20px; */
+    /* position: absolute; */
+}
+
+
+#line1{
+    width: 100%;
+    height: 1px;
+    background-color: aliceblue;
+    opacity: 30%;
+    position: relative;
+    top: 5%;
+}
+#line2{
+    width: 100%;
+    height: 1px;
+    background-color: aliceblue;
+    opacity: 30%;
+    position: relative;
+    top: 25%;
+}
+#page2 #agen{
+    letter-spacing: 0.6cap;
+    font-size: 20px;
+    /* font-weight: 3; */
+    left: 30%;
+    text-transform: uppercase;
+    opacity: 30%;
+    top: 8%;
+    position: absolute;
+    /* position: relative; */
+    /* justify-content: space-between; */
+}
+ #cnj{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 2px;
+    padding: 15%;
+   top:-15%;
+   /* position: absolute; */
+   position: relative;
+   font-size: 30px;
+   opacity: 50%;
+}
+#page2 button{
+    background-color: black;
+    padding: 0 10px;
+    font-size: 30px;
+    border: 5px solid white;
+    border-radius: 20px;
+}
+#step{
+    /* align-items: center; */
+    top: -25%;
+    position: relative;
+    text-align: center;
+    letter-spacing: 0.5cap;
+    opacity: 40%;
+}
+#design{
+    font-size: 50px;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    top: -23%;
+    position: relative;
+    text-align: center;
+}
+#line3{
+    width: 1px;
+    height: 155%;
+    background-color: antiquewhite;
+    left: 50%;
+    top: 65%;
+    opacity: 40%;
+    /* position: relative;   */
+    position: absolute;
+}
+#page2 #num{
+      position: absolute;
+      left: 50%;
+      background: linear-gradient(purple,royalblue);
+      /* color: transparent; */
+      font-size: 50px;
+      gap: 50px;
+     
+}
+.num1{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    z-index: 99;
+    text-align: center;
+    background-color: red;
+    margin: 40px 0;
+    gap: 100px;
+    /* background-size: cover; */
+    background: linear-gradient(to left, purple, violet,pink);
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow:0px 0px 30px rgb(233, 101, 235) ;
+}
+.num1 p{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+    transform: translate(0%,.5%);
+}
+#num0{
+     position: absolute; 
+     left: 50%;
+     transform: translate(-50%, 0);
+     display: flex;
+     z-index: 999;
+     background-color: transparent;
+     flex-direction: column;
+     gap: 140px;
+}
+#page4{
+    width: 100%;
+    height: 50%;
+    background-color: black;
+    
+}
+
+#darkimage1{
+    position: absolute;
+    left: 15%;
+    top: 65%;
+}
+#blr2{
+    height: 300px;
+    width: 400px;
+    border-radius: 50%;
+    background-color: #191826;
+    filter: blur(60px);
+}
+#photu2{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: -10%;
+ }
+  
+#darkimage2{
+    position: absolute;
+    left: 58%;
+    margin-top: 2%;
+}
+#photu3{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: -10%;
+   
+}
+#darkimage3{
+    position: absolute;
+    left: 15%;
+    margin-top: 20%;
+}
+#photu4{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: -15%;
+}
+#sub{
+    position: absolute;
+    left: 58%;
+    top: 75%;
+}
+#send{
+    position: absolute;
+    margin-top: 8%;
+    left: 16%;
+}
+#receive{
+    position: absolute;
+    margin-top: 27%;
+    left: 56%;
+}
+.halka{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 10;
+    font-size: 30px;
+    opacity: 40%;
+}
+#si{
+    position: absolute;
+    left: 40%;
+    margin-top: 12%;
+    display: flex;
+}
+
+
+
+#mid2{
+    position: absolute;
+    left: 33%;
+    margin-top: 15%;
+    
+}
+
